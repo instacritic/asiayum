@@ -78751,13 +78751,13 @@ $1:function(a){return a.h(0,1)},
 $S:175}
 A.LE.prototype={
 I:function(a,b){var s,r=null,q=Y.eE(b,!0,t.g).r,p=t.t
-p=H.c([new T.bv(new V.af(8,8,8,8),r,r),T.ly(H.c([C.xc,new T.HS(new U.mM(M.ad4(r,r,new L.rk("assets/icon.png",r,r)),r,r,50,50,r,C.ay,C.cC,!1,!1,r,!1,r),r),C.xc,L.bI("Instacritic",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,25,r,C.cz,r,r,!0,r,r,r,r,r,r),r,r)],p),C.a9,C.ab),new T.bv(new V.af(5,5,5,5),r,r),new T.bv(new V.af(15,0,15,0),L.bI("Restaurant reviews from Instagram with searching, filtering, and a map.",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,15,r,r,r,r,!0,r,r,r,r,r,r),r,r),r),new T.bv(new V.af(5,5,5,5),r,r),Q.a7b(r,!0,L.jT(C.ub,r,r),new A.a8Z(this,b),r,r,L.bI("Charts",r,r,r,r,r,r),r),new T.bv(new V.af(5,5,5,5),r,r)],p)
+p=H.c([new T.bv(new V.af(8,8,8,8),r,r),T.ly(H.c([C.xc,new T.HS(new U.mM(M.ad4(r,r,new L.rk("assets/icon.png",r,r)),r,r,50,50,r,C.ay,C.cC,!1,!1,r,!1,r),r),C.xc,L.bI("Instacritic",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,25,r,C.cz,r,r,!0,r,r,r,r,r,r),r,r)],p),C.a9,C.ab),new T.bv(new V.af(5,5,5,5),r,r),new T.bv(new V.af(15,0,15,0),L.bI("Restaurant ratings from Instagram with searching, filtering, and a map.",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,15,r,r,r,r,!0,r,r,r,r,r,r),r,r),r),new T.bv(new V.af(5,5,5,5),r,r),Q.a7b(r,!0,L.jT(C.ub,r,r),new A.a8Z(this,b),r,r,L.bI("Charts",r,r,r,r,r,r),r),new T.bv(new V.af(5,5,5,5),r,r)],p)
 s=q.length
 if(s!==0){s="Failed to import "+s+" post"
 p.push(new T.bv(new V.af(15,0,15,0),L.bI(s+(q.length!==1?"s":"")+":",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,14,r,C.cz,r,r,!0,r,r,r,r,r,r),r,r),r))}if(q.length!==0)p.push(this.a2K(b,q))
 p.push(new R.BH(r))
 p.push(new T.bv(new V.af(15,0,15,0),L.bI("Made with \u2661 by Brandon Liu.",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,14,r,r,r,r,!0,r,r,r,r,r,r),r,r),r))
-p.push(new T.bv(new V.af(15,0,15,0),L.bI("Version 1.20210114.2200",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,14,r,r,r,r,!0,r,r,r,r,r,r),r,r),r))
+p.push(new T.bv(new V.af(15,0,15,0),L.bI("Version 1.20210209.1725",r,r,r,A.al(r,r,r,r,r,r,r,r,r,r,r,14,r,r,r,r,!0,r,r,r,r,r,r),r,r),r))
 p.push(new T.bv(new V.af(8,8,8,8),r,r))
 return new T.bv(new V.af(0,0,0,0),T.eP(p,C.kD,C.bL,C.ab,C.Y),r)},
 a2K:function(a,b){var s=null,r=a.V(t.w).f,q=b.length,p=G.aBY(new A.a8X(b),!0,!0,!0,q)
@@ -78844,7 +78844,7 @@ r=r.length
 if(!$.aBs){L.aEv(!1)
 L.aEv(!0)
 $.aBs=!0}return new L.MS(new B.zh(p,o,C.l,!1,n,!1,new L.oC(o),!1,o,0,o,r,C.a4,C.mU,o,C.z,o),o)},
-a2y:function(a,b){var s=null,r=b===$.YF,q=$.aCI.ab(0,a.a)?$.aCI.h(0,a.a):s,p=q==null,o=p||this.d?s:new T.bv(new V.af(5,0,0,0),new X.JE(q,10,s),s)
+a2y:function(a,b){var s=null,r=b===$.YF,q=$.aCI.ab(0,a.a)?$.aCI.h(0,a.a):s,p=q==null,o=!p&&!this.d?new T.bv(new V.af(5,0,0,0),new X.JE(q,10,s),s):s
 p=!this.d||p?a.a:L.aTa(q)+"  "+a.a
 return new T.bv(C.om,new E.HN(o,new T.bv(new V.af(0,0,0,0),L.bI(p,s,s,s,A.al(s,s,r?C.h:C.r,s,s,s,s,s,s,s,s,s,s,C.a5,s,s,!0,s,s,s,s,s,s),s,s),s),new R.akk(this,b,a),r,C.bY,C.h,new V.af(5,0,5,0),3,s),s)}}
 R.akk.prototype={
@@ -79163,7 +79163,7 @@ v3:function(){var s=0,r=P.L(t.X),q,p=this,o,n
 var $async$v3=P.H(function(a,b){if(a===1)return P.I(b,r)
 while(true)switch(s){case 0:o=p.a
 s=3
-return P.Y(O.xt(o,o.gcS().jM(0,"users")).hE(0,"meggnoms").mK(0),$async$v3)
+return P.Y(O.xt(o,o.gcS().jM(0,"users")).hE(0,"unagibrandon").mK(0),$async$v3)
 case 3:n=b
 q=O.vl(n.gcS().m4(0),n.gez()).h(0,"ig_long_lived_token")
 s=1
